@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    /* margin: auto; */
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.yellow{
+    color: yellow;
+}
+
+.button{
+    background-image: linear-gradient(to right, chartreuse , aqua);
+    color: black;
+    border-radius: 5px;
+    border: none;
+    padding: 1% 2%;
+}
+.button:hover{
+ padding:1.5% 2.1%;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgb(68, 117, 118);
+    color: white;
+    display: block;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #e0e0e0;
+}
+
+.sec{
+    background-image: linear-gradient(to top,#537895  5%, #09203f 50%);
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.coach-info{
+    display: block;
+    text-align: center;
+    padding: 10% 2% 2% ;
+    height: 300px;
+}
+h2{
+    margin: 0;
+}
+.mentor-details{
+    margin-top: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+} 
+.feature{
+    box-shadow:
+    inset 0 -3em 3em white,
+    0 0 0 2px white,
+    0.3em 0.3em 1em grey;
+    border-radius: 5px;
+    margin:  5%;
+    width: 50%;
+    height: 20%
+}
+.img:hover{
+    width: 110px;
+    height: 80px;
+}
+
+.mentor{
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+} 
+.boxes{
+    background-color: blue;background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,43,99,1) 67%, rgb(6, 25, 129) 100%);
+    color: white;
+    border-radius: 5px;
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid ;
+    margin:  5%;
+    width: 55%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.boxes:hover{
+    width: 60%;
+    height: 100px;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.line{
+    text-decoration-line: line-through; 
+}
+
+.image{
+    width: 80%;
+}
+
+.learn{
+        display: block;
+        text-align: center;
+        padding: 10% 2% 2% ;
+}
+.result{
+    display: flexbox;
+
+}
+.imgs{
+    padding: 1%;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+.imgs:hover{
+    width: 190px;
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%);
+}
+
+
+
+
+.pricing {
+    padding: 20px;
+    background-color: #fff3e0;
+    border: 1px solid #ff9800;
+}
+
+.pricing h2 {
+    color: #e65100;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.pricing p {
+    color: #e65100;
+    font-size: 1.2em;
+}
+
+#register-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+#register-button:hover {
+    background-color: #218838;
+}
+
+.price-increase {
+    color: #e3342f;
+    font-weight: bold;
+}
+
+.results {
+    padding: 20px;
+    background-color: #e0f7fa;
+}
+
+.results h2 {
+    color: #00796b;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.results p {
+    color: #004d40;
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer .logos {
+    display: block;
+    margin-top: 10px;
+}
+
+footer .logos span {
+    margin-right: 10px;
+}
+
+
+    
+   
+   
+
+ 
